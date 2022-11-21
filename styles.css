@@ -105,7 +105,8 @@ body{
 .card-0,
 .card-1,
 .card-2,
-.card-3{
+.card-3
+{
     border-top: 8px rgb(69, 69, 69) solid;
     padding: 50px;
 }
@@ -211,4 +212,82 @@ body{
     height: auto;
     grid-column: 1/2;
     grid-row: 1/2;
+}
+.lastsec{
+    border-top: 8px rgb(69, 69, 69) solid;
+    border-bottom: 8px rgb(69, 69, 69) solid;
+    padding: 30px;
+}
+.faq {
+    text-align: center;
+}
+
+.faq h1 {
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+
+.questions {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.questions li {
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: #303030;
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+
+.faq p {
+    padding-top: 50px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+}
+a:link{
+    text-decoration: none;
+
+}
+a:link:hover{
+    text-decoration: underline;
+   
+}
+.footer {
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+
+.footer,
+.footer a {
+    color: #999999;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li {
+    list-style: none;
+    line-height: 2.4;
 }
